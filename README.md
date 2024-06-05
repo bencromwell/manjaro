@@ -15,3 +15,5 @@ wget --quiet https://github.com/bencromwell/manjaro/raw/main/install-7.sh
 ```
 
 Then go through each one and run them.
+
+Work-specific stuff is in `./work`.
