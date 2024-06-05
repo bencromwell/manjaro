@@ -7,5 +7,8 @@ keybase login
 echo "Keybase will first prompt for its account password, then the PGP passphrase\n"
 keybase pgp export --secret | gpg --allow-secret-key-import --import
 
-echo "Follow the prompts to trust the key\n"
+# Import the rest of the keys.
+keybase pgp export | gpg --import
+
+echo "Follow the prompts to trust the keys\n"
 gpg --edit-key 12072518D8C37EED
