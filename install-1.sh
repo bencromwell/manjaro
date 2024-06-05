@@ -18,6 +18,7 @@ sudo pacman -Syu --noconfirm \
     gnu-netcat \
     go \
     guake \
+    gum \
     httpie \
     jq \
     mtr \
