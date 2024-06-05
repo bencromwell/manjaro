@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install stuff that we don't need yay for
-pacman -Syu --noconfirm \
+sudo pacman -Syu --noconfirm \
     bat \
     bind \
     bitwarden \
