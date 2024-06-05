@@ -1,11 +1,19 @@
 #!/bin/bash
 
-# Keybase will prompt you to add this device using one of your other devices.
-# Don't just scan the QR code with any old scanner, scan it within the Keybase app.
-keybase login
+gh repo clone bencromwell/dotfiles ~/projects/personal/dotfiles
 
-echo "Keybase will first prompt for its account password, then the PGP passphrase\n"
-keybase pgp export --secret | gpg --allow-secret-key-import --import
+cp -R ~/projects/personal/dotfiles/.* ~/
 
-echo "Follow the prompts to trust the key\n"
-gpg --edit-key 12072518D8C37EED
+gh repo clone bencromwell/ssh-config ~/projects/ssh-config
+
+yay -Syu --noconfirm \
+    google-chrome \
+    keybase-bin \
+    jetbrains-toolbox \
+    slack-desktop \
+    spotify \
+    ttf-ms-fonts \
+    visual-studio-code-bin \
+    zoom
+
+mkdir -p ~/.local/bin

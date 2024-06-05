@@ -1,8 +1,9 @@
 #!/bin/bash
 
-pipx install sshush
-# fix an issue with sshush on pipx
-pipx inject sshush setuptools
+echo "Testing Git commit signing is working\n"
 
-# compile ssh config from our bash alias
-compilessh
+mkdir -p ~/projects/personal/testgit
+cd ~/projects/personal/testgit
+git init
+git commit --allow-empty -m "Test commit"
+git show HEAD --show-signature
