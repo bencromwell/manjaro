@@ -30,6 +30,7 @@ sudo pacman -Syu --noconfirm \
     python-pipx \
     ripgrep \
     starship \
+    tailscale \
     ttf-nerd-fonts-symbols \
     ttf-nerd-fonts-symbols-mono \
     ttf-noto-nerd \
