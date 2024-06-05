@@ -5,15 +5,12 @@ To avoid a Yossarian, don't bother cloning this repo, just grab the scripts.
 Manjaro does come out of the box with curl, wget and git (I think). So it's probably fine anyway.
 
 ```shell
-wget --quiet https://github.com/bencromwell/manjaro/raw/main/install-1.sh
-wget --quiet https://github.com/bencromwell/manjaro/raw/main/install-2.sh
-wget --quiet https://github.com/bencromwell/manjaro/raw/main/install-3.sh
-wget --quiet https://github.com/bencromwell/manjaro/raw/main/install-4.sh
-wget --quiet https://github.com/bencromwell/manjaro/raw/main/install-5.sh
-wget --quiet https://github.com/bencromwell/manjaro/raw/main/install-6.sh
-wget --quiet https://github.com/bencromwell/manjaro/raw/main/install-7.sh
+export MANJARO_SETUP_VERSION="1.0.0"
+wget --quiet https://github.com/bencromwell/manjaro/archive/refs/tags/v${MANJARO_SETUP_VERSION}.tar.gz -O manjaro-setup-${MANJARO_SETUP_VERSION}.tar.gz
+tar -xf manjaro-setup-${MANJARO_SETUP_VERSION}.tar.gz
+cd manjaro-${MANJARO_SETUP_VERSION}
 ```
 
-Then go through each one and run them.
+Then go through each one and run them (in order).
 
 Work-specific stuff is in `./work`.
