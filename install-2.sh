@@ -1,19 +1,9 @@
 #!/bin/bash
 
-gh repo clone bencromwell/dotfiles ~/projects/personal/dotfiles
+mkdir -p ~/projects/{personal,krystal}
 
-cp -R ~/projects/personal/dotfiles/.* ~/
+echo "Open BitWarden and authenticate it now\n"
 
-gh repo clone bencromwell/ssh-config ~/projects/ssh-config
-
-yay -Syu --noconfirm \
-    google-chrome \
-    keybase-bin \
-    jetbrains-toolbox \
-    slack-desktop \
-    spotify \
-    ttf-ms-fonts \
-    visual-studio-code-bin \
-    zoom
-
-mkdir -p ~/.local/bin
+# Open GitHub in a web browser and login
+# Then authorize the GitHub CLI. Let it create and upload an SSH key for this machine
+gh auth login
