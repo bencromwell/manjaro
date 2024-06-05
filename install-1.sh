@@ -22,10 +22,12 @@ pacman -Syu --noconfirm \
     jq \
     mtr \
     net-tools \
+    noto-fonts-emoji \
     patch \
     php \
     pkgfile \
     pwgen \
+    python-pipx \
     ripgrep \
     starship \
     ttf-nerd-fonts-symbols \
