@@ -11,6 +11,7 @@ wget --quiet https://github.com/bencromwell/manjaro/raw/main/install-3.sh
 wget --quiet https://github.com/bencromwell/manjaro/raw/main/install-4.sh
 wget --quiet https://github.com/bencromwell/manjaro/raw/main/install-5.sh
 wget --quiet https://github.com/bencromwell/manjaro/raw/main/install-6.sh
+wget --quiet https://github.com/bencromwell/manjaro/raw/main/install-7.sh
 ```
 
 Then go through each one and run them.
