@@ -5,5 +5,6 @@ pipx install sshush
 pipx inject sshush setuptools
 
 # compile ssh config from our bash alias
+shopt -s expand_aliases
 source ~/.bash_aliases
 compilessh
