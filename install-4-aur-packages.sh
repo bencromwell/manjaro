@@ -1,6 +1,7 @@
 #!/bin/bash
 
 yay -Syu --noconfirm \
+    git-extras \
     google-chrome \
     keybase-bin \
     jetbrains-toolbox \
