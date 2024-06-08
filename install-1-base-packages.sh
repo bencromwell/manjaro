@@ -7,6 +7,7 @@ sudo pacman -Syu --noconfirm \
     bitwarden \
     bitwarden-cli \
     cheese \
+    chezmoi \
     composer \
     docker \
     docker-compose \
