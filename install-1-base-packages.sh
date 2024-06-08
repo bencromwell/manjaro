@@ -18,6 +18,7 @@ sudo pacman -Syu --noconfirm \
     github-cli \
     gnu-netcat \
     go \
+    goreleaser \
     guake \
     gum \
     httpie \
