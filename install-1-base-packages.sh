@@ -22,6 +22,7 @@ sudo pacman -Syu --noconfirm \
     gum \
     httpie \
     jq \
+    make \
     mtr \
     net-tools \
     noto-fonts-emoji \
@@ -41,3 +42,5 @@ sudo pacman -Syu --noconfirm \
     wireguard-tools \
     yay \
     yq
+
+sudo pkgfile --update
