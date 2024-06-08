@@ -27,6 +27,7 @@ sudo pacman -Syu --noconfirm \
     mtr \
     net-tools \
     noto-fonts-emoji \
+    nvm \
     patch \
     php \
     pkgfile \
