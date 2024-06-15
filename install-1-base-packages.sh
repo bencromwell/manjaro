@@ -35,6 +35,7 @@ sudo pacman -Syu --noconfirm \
     python-pipx \
     ripgrep \
     starship \
+    strace \
     tailscale \
     ttf-nerd-fonts-symbols \
     ttf-nerd-fonts-symbols-mono \
