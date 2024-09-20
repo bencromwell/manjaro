@@ -34,6 +34,7 @@ sudo pacman -Syu --noconfirm \
     pwgen \
     python-pipx \
     ripgrep \
+    rustscan \
     starship \
     strace \
     tailscale \
