@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Setup mirrors first as the stock install ones can be slow
+sudo pacman-mirrors --fastrack=5
+
 # Install stuff that we don't need yay for
 sudo pacman -Syu --noconfirm \
     bat \
