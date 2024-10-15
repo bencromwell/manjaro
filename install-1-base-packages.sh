@@ -6,6 +6,7 @@ sudo pacman-mirrors --fastrack=5
 # Install stuff that we don't need yay for
 sudo pacman -Syu --noconfirm \
     bat \
+    bat-extras \
     bind \
     bitwarden \
     bitwarden-cli \
