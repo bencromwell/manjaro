@@ -48,6 +48,7 @@ sudo pacman -Syu --noconfirm \
     ttf-bitstream-vera \
     tree \
     wireguard-tools \
+    yarn \
     yay \
     yq
 
