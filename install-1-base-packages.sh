@@ -47,6 +47,7 @@ sudo pacman -Syu --noconfirm \
     ttf-noto-nerd \
     ttf-bitstream-vera \
     tree \
+    vale \
     wireguard-tools \
     yarn \
     yay \
