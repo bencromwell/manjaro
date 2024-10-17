@@ -13,6 +13,7 @@ sudo pacman -Syu --noconfirm \
     cheese \
     chezmoi \
     composer \
+    difftastic \
     docker \
     docker-compose \
     fakeroot \
