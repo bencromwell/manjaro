@@ -27,6 +27,7 @@ sudo pacman -Syu --noconfirm \
     guake \
     gum \
     httpie \
+    jc \
     jq \
     make \
     mtr \
