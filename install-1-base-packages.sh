@@ -31,6 +31,7 @@ sudo pacman -Syu --noconfirm \
     jq \
     make \
     mtr \
+    neofetch \
     net-tools \
     noto-fonts-emoji \
     nvm \
