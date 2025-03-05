@@ -17,6 +17,7 @@ sudo pacman -Syu --noconfirm \
     docker \
     docker-compose \
     fakeroot \
+    fastfetch \
     fd \
     git \
     git-lfs \
@@ -31,7 +32,6 @@ sudo pacman -Syu --noconfirm \
     jq \
     make \
     mtr \
-    neofetch \
     net-tools \
     noto-fonts-emoji \
     nvm \
