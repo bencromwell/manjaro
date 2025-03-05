@@ -8,5 +8,4 @@ yay -Syu --noconfirm \
     slack-desktop \
     spotify \
     ttf-ms-fonts \
-    visual-studio-code-bin \
-    zoom
+    visual-studio-code-bin
