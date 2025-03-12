@@ -35,6 +35,7 @@ sudo pacman -Syu --noconfirm \
     net-tools \
     noto-fonts-emoji \
     nvm \
+    onefetch \
     patch \
     php \
     pkgfile \
